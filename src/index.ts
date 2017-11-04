@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const ArgumentParser = require("argparse").ArgumentParser;
 const request = require("request");
 const fs = require("fs");
