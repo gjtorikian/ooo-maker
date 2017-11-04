@@ -1,16 +1,17 @@
 {
   "name": "ooo-maker",
   "version": "0.0.1",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "bin": {
-    "fuck": "dist/index.js"
+    "ooo-maker": "dist/src/index.js"
   },
   "typings": "definitions/index",
   "typescript": {
     "definition": "definitions/index"
   },
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "prepublish": "gulp"
   },
   "repository": {
     "type": "git",
