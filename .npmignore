@@ -1,0 +1,13 @@
+node_modules/
+*.log
+*.tgz
+
+test/
+gulpfile.js
+tsconfig.json
+tslint.json
+typings.json
+typings
+dist/test
+
+tsc-seed-1.0.0.tgz
