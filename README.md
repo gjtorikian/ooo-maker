@@ -22,10 +22,10 @@ Once that's done, run:
 > Requires `node` to be available in your PATH. If you're using a system where
 > the node binary is named `nodejs` instead, you'll need to symlink it or something.
 
-## Why?
-
-I got tired of doing this myself.
-
 ## Usage
 
     ooo-maker -u <GitHub_username> -d <month/date>
+
+## Why?
+
+I got tired of doing this myself.
