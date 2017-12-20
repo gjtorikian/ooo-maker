@@ -1,6 +1,6 @@
 {
   "name": "ooo-maker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/src/index.js",
   "bin": {
     "ooo-maker": "dist/src/index.js"
@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "argparse": "^1.0.9",
-    "canvas": "git+https://github.com/Automattic/node-canvas.git#bc1a1f123dd540eb77b674e67d6caa8666ab6f5e",
+    "canvas": "git+https://github.com/Automattic/node-canvas.git#7c9ec58db59d4b9d857d644cf5ed3a0b6a52cc1f",
     "request": "^2.83.0",
     "tmp": "^0.0.33"
   },

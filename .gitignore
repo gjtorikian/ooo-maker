@@ -49,3 +49,5 @@ dist/
 
 # Ignore generated package file
 tsc-seed-1.0.0.tgz
+
+*.png

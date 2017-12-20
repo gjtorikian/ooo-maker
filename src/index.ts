@@ -67,13 +67,13 @@ request.get(`http://www.github.com/${username}.png`)
            let xPos = 0;
 
            switch (dateLen) {
-             case 3:
+             case 3: // like, 3/6
               xPos = 120;
               break;
-             case 4:
+             case 4: // like, 7/22
               xPos = 80;
               break;
-             case 5:
+             case 5: // like, 12/25
               xPos = 40;
               break;
            }
