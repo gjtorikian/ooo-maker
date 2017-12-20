@@ -54,10 +54,15 @@ request.get(`http://www.github.com/${username}.png`)
 
            let canvas = Canvas.createCanvas(width, height);
            let ctx = canvas.getContext("2d");
-           ctx.globalAlpha = 0.5;
-           ctx.font = "160px Helvetica";
+           ctx.globalAlpha = 0.6;
            ctx.drawImage(img, 0, 0);
+
+           ctx.strokeStyle = "black";
+           ctx.fillStyle = "black";
+           ctx.fillRect(0, 0, width, height);
+
            ctx.globalAlpha = 1;
+           ctx.font = "160px Helvetica";
            ctx.fillStyle = "rgba(255, 255, 255, 1)";
 
            ctx.fillText("OOO", 50, 130);
