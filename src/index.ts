@@ -78,7 +78,11 @@ request.get(`http://www.github.com/${username}.png`)
              case 4: // like, 7/22
               xPos = 80;
               break;
-             case 5: // like, 12/25
+             case 5: // like, 12/25 or 2/Jan
+              xPos = 40;
+              break;
+             case 6: // like, 14/Dec
+              ctx.font = "130px Helvetica";
               xPos = 40;
               break;
            }
