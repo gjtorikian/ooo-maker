@@ -23,7 +23,7 @@ This assumes `node` is available in your PATH. If you're using a system where  t
 
     ooo-maker -u <GitHub_username> -d <month/date>
 
-This will place the modified avatar picture in the same folder where you ran this command.
+This will place the modified avatar in the same folder where you ran this command.
 
 ## Why?
 
