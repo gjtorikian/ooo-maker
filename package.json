@@ -1,6 +1,6 @@
 {
   "name": "ooo-maker",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/src/index.js",
   "bin": {
     "ooo-maker": "dist/src/index.js"
@@ -10,8 +10,13 @@
     "definition": "definitions/index"
   },
   "scripts": {
-    "build": "gulp",
-    "prepublish": "gulp"
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
   },
   "repository": {
     "type": "git",
@@ -25,18 +30,8 @@
     "tmp": "^0.0.33"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-mocha": "^3.0.1",
-    "gulp-rename": "^1.2.3",
-    "gulp-shell": "^0.5.2",
-    "gulp-sourcemaps": "^1.12.1",
-    "gulp-tslint": "^6.1.1",
-    "gulp-typescript": "^2.13.6",
-    "merge2": "^1.2.2",
-    "tslint": "^3.15.1",
-    "tslint-microsoft-contrib": "^2.0.10",
-    "typescript": "^1.8.10"
+    "@types/node": "^10.1.2",
+    "gts": "^0.6.0",
+    "typescript": "~2.8.0"
   }
 }
