@@ -1,9 +1,9 @@
 {
   "name": "ooo-maker",
   "version": "0.1.2",
-  "main": "dist/src/index.js",
+  "main": "build/src/index.js",
   "bin": {
-    "ooo-maker": "dist/src/index.js"
+    "ooo-maker": "build/src/index.js"
   },
   "typings": "definitions/index",
   "typescript": {
