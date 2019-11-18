@@ -1,6 +1,6 @@
 {
   "name": "ooo-maker",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "build/src/index.js",
   "bin": {
     "ooo-maker": "build/src/index.js"
