@@ -25,7 +25,7 @@
   "license": "MIT",
   "dependencies": {
     "argparse": "^1.0.10",
-    "canvas": "git+https://github.com/Automattic/node-canvas.git#7c9ec58db59d4b9d857d644cf5ed3a0b6a52cc1f",
+    "canvas": "^2.6.0",
     "request": "^2.87.0",
     "tmp": "^0.0.33"
   },
