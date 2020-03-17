@@ -25,13 +25,13 @@
   "license": "MIT",
   "dependencies": {
     "argparse": "^1.0.10",
-    "canvas": "^2.6.0",
-    "request": "^2.87.0",
+    "canvas": "^2.6.1",
+    "request": "^2.88.2",
     "tmp": "^0.0.33"
   },
   "devDependencies": {
-    "@types/node": "^10.1.3",
-    "gts": "^1.0.0",
-    "typescript": "~2.8.0"
+    "@types/node": "^10.17.17",
+    "gts": "^1.1.2",
+    "typescript": "^2.8.4"
   }
 }
