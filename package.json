@@ -1,6 +1,6 @@
 {
   "name": "ooo-maker",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "main": "build/src/index.js",
   "bin": {
     "ooo-maker": "build/src/index.js"
@@ -30,8 +30,8 @@
     "tmp": "^0.0.33"
   },
   "devDependencies": {
-    "@types/node": "^10.17.17",
-    "gts": "^1.1.2",
-    "typescript": "^2.8.4"
+    "@types/node": "^10.17.28",
+    "gts": "^2.0.2",
+    "typescript": "^2.9.2"
   }
 }
